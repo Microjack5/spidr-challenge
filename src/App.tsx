@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/global.css';
+import ParticleBackground from './components/ParticleBackground';
+import InfoSection from './components/InfoSection';
+import SignUpForm from './components/SignUpForm';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="landing-page d-flex flex-column align-items-center justify-content-center text-center">
+      <ParticleBackground />
+      <InfoSection/>
+      
+      <section id="signup" className="sign-up-form-wrapper">
+        <SignUpForm />
+      </section>
     </div>
   );
-}
+};
 
 export default App;
