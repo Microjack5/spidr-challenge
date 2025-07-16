@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 
 const SignUpForm: React.FC = () => {
-  const [formData, setFormData] = useState({
+
+  const blankForm = {
     firstName: '',
     lastName: '',
     phone: '',
     email: '',
     cost: '',
     pin: '',
-  });
+  };
+
+  const [formData, setFormData] = useState(blankForm);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -32,6 +35,8 @@ const SignUpForm: React.FC = () => {
     }
 
     console.log(`Form submitted:`, formData);
+    alert('Form submitted! Check the console for details.');
+    setFormData(blankForm);
   };
 
   return (
