@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/spidr-challenge/static/css/main.b76dcd1e.css",
-    "main.js": "/spidr-challenge/static/js/main.faa3c0a8.js",
+    "main.js": "/spidr-challenge/static/js/main.744a69e3.js",
     "static/js/453.81f28ebe.chunk.js": "/spidr-challenge/static/js/453.81f28ebe.chunk.js",
     "static/media/airfryer.png": "/spidr-challenge/static/media/airfryer.5bc2c38e4320fbda662c.png",
     "index.html": "/spidr-challenge/index.html",
     "main.b76dcd1e.css.map": "/spidr-challenge/static/css/main.b76dcd1e.css.map",
-    "main.faa3c0a8.js.map": "/spidr-challenge/static/js/main.faa3c0a8.js.map",
+    "main.744a69e3.js.map": "/spidr-challenge/static/js/main.744a69e3.js.map",
     "453.81f28ebe.chunk.js.map": "/spidr-challenge/static/js/453.81f28ebe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b76dcd1e.css",
-    "static/js/main.faa3c0a8.js"
+    "static/js/main.744a69e3.js"
   ]
 }
